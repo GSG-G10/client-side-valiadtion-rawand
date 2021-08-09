@@ -1,0 +1,100 @@
+body{
+    background: url(https://unsplash.it/1324/683?random=0);
+}
+.title{
+    color: rgb(202, 47, 143);
+    padding-top: 5px;
+}
+#registerForm {
+    text-align: center;
+    background-color: #fff;
+    margin-left: 30%;
+    margin-right: 30%;
+    height: 400px;
+    margin-top: 5%;
+}
+#registerForm input{
+    display: block;
+    margin-left:25% ;
+    padding: 10px 80px;
+    margin-top: 2%;
+    border: #7777 solid 1px;
+   
+
+}
+#registerForm button{
+    margin-left:12% ;
+    padding: 20px 80px;
+    margin-top: 2%;
+    width: 50%;
+} 
+@media(max-width:767px){
+    #registerForm  {
+        background-color: #fff;
+        width: 80%;
+        margin-left: 6%;
+    }
+    #registerForm  input{
+        margin-left:15% ;
+    }
+    #registerForm  button{
+        margin-left:14% ;
+    
+        width: 72%;
+    } 
+  
+}
+
+@media(min-width:768px){
+    #registerForm  {
+        background-color: #fff;
+        width: 80%;
+        margin-left: 6%;
+    }
+    #registerForm input{
+        margin-left:15% ;
+        padding: 10px 120px;
+    }
+    #registerForm   button{
+        margin-left:14% ;
+    
+        width: 55%;
+    } 
+
+}
+
+@media(min-width:992px){
+    #registerForm  {
+        background-color: #fff;
+        width: 80%;
+        margin-left: 6%;
+    }
+  
+    #registerForm  input{
+        margin-left:15% ;
+        padding: 10px 180px;
+    }
+    #registerForm   button{
+        margin-left:15% ;
+    
+        width: 58%;
+    } 
+}
+
+@media(min-width:1200px){
+    #registerForm  {
+        background-color: #fff;
+        width: 40%;
+        margin-left: 30%;
+    }
+
+    #registerForm  input{
+        margin-left:25% ;
+        padding: 10px 90px;
+    }
+    #registerForm  button{
+        margin-left:25% ;
+    
+        width: 55%;
+    } 
+}
